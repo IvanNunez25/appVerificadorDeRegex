@@ -11,6 +11,7 @@
 		E6F66AAA2AC9F94200B8C74E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6F66AA92AC9F94200B8C74E /* Assets.xcassets */; };
 		E6F66AAD2AC9F94200B8C74E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6F66AAB2AC9F94200B8C74E /* MainMenu.xib */; };
 		E6F66AAF2AC9F94200B8C74E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F66AAE2AC9F94200B8C74E /* main.m */; };
+		E6F66AB82ACA027E00B8C74E /* Verificador.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F66AB72ACA027E00B8C74E /* Verificador.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,8 @@
 		E6F66AAC2AC9F94200B8C74E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		E6F66AAE2AC9F94200B8C74E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E6F66AB02AC9F94200B8C74E /* _023_10_01_appVerificadorDeRegex.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = _023_10_01_appVerificadorDeRegex.entitlements; sourceTree = "<group>"; };
+		E6F66AB62ACA027E00B8C74E /* Verificador.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Verificador.h; sourceTree = "<group>"; };
+		E6F66AB72ACA027E00B8C74E /* Verificador.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Verificador.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +62,8 @@
 				E6F66AAB2AC9F94200B8C74E /* MainMenu.xib */,
 				E6F66AAE2AC9F94200B8C74E /* main.m */,
 				E6F66AB02AC9F94200B8C74E /* _023_10_01_appVerificadorDeRegex.entitlements */,
+				E6F66AB62ACA027E00B8C74E /* Verificador.h */,
+				E6F66AB72ACA027E00B8C74E /* Verificador.m */,
 			);
 			path = 2023_10_01_appVerificadorDeRegex;
 			sourceTree = "<group>";
@@ -134,6 +139,7 @@
 			files = (
 				E6F66AAF2AC9F94200B8C74E /* main.m in Sources */,
 				E6F66AA82AC9F94100B8C74E /* AppDelegate.m in Sources */,
+				E6F66AB82ACA027E00B8C74E /* Verificador.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
